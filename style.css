@@ -1,0 +1,80 @@
+/*  Resetar o css do navegador */
+* {
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0;
+}
+
+/* todos que estão dentro do body vão usar essa font, estou pegando do google */
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 30px;
+}
+
+/* definido o tamanho da página que vou trabalhar no curriculo */
+.pagina{
+    width: 600px;
+    height: 800px;
+    border: 1px solid;
+}
+
+/* o importatn subscreve tudo que teve anteriormente */
+h3{   
+    text-transform: uppercase;
+    margin: 22px !important; 
+    color:blue;
+}
+
+b{
+    color: #191919;
+}
+
+.margin-10{
+    margin: 10px;
+}
+
+.menu-esquerda{
+    float: left; 
+    width: 28%;    
+}
+
+/* imagem do menu esquerda */
+.menu-esquerda img{
+    width: 140px;
+    margin-top: 10px;
+}
+
+.menu-direita{
+    width: 70%; 
+    float: right;
+}
+
+.center{
+    text-align: center;
+}
+
+.justify{
+    text-align: justify;
+}
+
+.clear{
+    clear: both;
+}
+
+h1{
+    padding: 10px;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,0.4121848568528974) 1%, rgba(252,176,69,1) 100%); 
+}
+
+/* dentro do menu direita, e dentro da div é alterado o p */
+.menu-direita div p{
+    padding: 5px;
+}
+
+hr{
+    border: 1px solid;
+    margin: 5px 15px;
+}
